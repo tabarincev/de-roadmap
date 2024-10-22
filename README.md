@@ -1,6 +1,3 @@
-# de-roadmap
-Complete roadmap for learning DE 
-
 # Data Enginner Roadmap 2024
 
 ## Concepts 
