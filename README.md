@@ -27,6 +27,9 @@
 
 #### Data Quality
 
+## System Design
+#### CAP Theorem
+
 
 ## Technologies
 #### Linux
@@ -58,3 +61,8 @@
 
 #### Spark
 
+#### Kafka
+
+#### Git
+
+#### Airflow
