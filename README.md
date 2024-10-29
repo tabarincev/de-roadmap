@@ -15,20 +15,34 @@
 - CDC
 - ELT
 - ETL
-
+- Hot vs Warm vs Cold data
+- SCD2
+  
 #### Data Modeling
 - Data Vault 2.0
 - Anchor Modeling
 - HnNf
 
 #### Processing
-- Batch
-- Stream
+- Batch vs Stream
+- OLTP vs OLAP vs HTAP
 
 #### Data Quality
 
+
+#### SQL Concepts
+- Indexes
+- Isolation levels (UR, CR, RR, SR)
+- Clustering
+- Sharding
+- Replication
+- How database physically stores data ?
+- DDL vs DML vs DCL vs TCL
+- RBAC
+- Physical joins (Nested loop, Merge sort join, Hash join)
+- Execution plan optimization
+  
 ## System Design
-#### CAP Theorem
 
 
 ## Technologies
@@ -41,14 +55,21 @@
 - Filesystem
 - Network
 - Utils
+- SSH
 
 #### Docker
 - Basics
+- Conteiner vs VM
 - Build & Run conteiners
 - CLI
 - Deploy
 
 #### ClickHouse
+- ACID
+- Rebalancing & Profiling queries
+- Caching
+- Views Types
+- Dictionaries
 - Engines
 - Parts
 - Indexes
@@ -56,7 +77,6 @@
 - Data formats
 - Blocks
 - Mutations
-- Replicating vs Sharding
 #### PostgreSQL
 
 #### Spark
@@ -94,6 +114,7 @@
 - UDF
 - Testing
 - cache() vs persist()
+- Graceful Shutdown
 
   
 #### Kafka
@@ -105,6 +126,15 @@
 #### Git
 
 #### Airflow
+- Architecture
+- DAG
+- Operators
+- Sensors
+- XCOM
+- TaskFlow
+- Jinja templates
+- backfill & catchup
+- Pool vs Queue
 
 #### Hadoop
 - Architecture
