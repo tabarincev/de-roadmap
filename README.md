@@ -60,9 +60,53 @@
 #### PostgreSQL
 
 #### Spark
+- Architecture
+- Shuffle vs Broadcast
+- Actions vs Transformations
+- Wide vs Narrow
+- RDD vs DataSet vs DataFrame
+- Partition pruning (Dynamic)
+- Projection pushdown
+- Spill-effect
+- Dynamic allocation
+- Catalyst
+- Spark Connect
+- Spark Context
+- Driver vs Executor
+- Jobs vs Stages vs Tasks
+- Repartition vs Coalesce
+- Shared Variables & Broadcast Variables & Accumulators
+- Joins & Hints
+- Journaling
+- Cluster vs Client mode
+- Profiling & Debug
+- AQE
+- Pipeline examples
+- Spark Cluster on YARN vs k8s
+- take() vs collect()
+- Garbage collector
+- Spark App configuration
+- PyArrow in PySpark
+- Data Locality
+- Data Skew
+- Bucketing vs Paritioning
+- Scalability
+- UDF
+- Testing
+- cache() vs persist()
 
+  
 #### Kafka
-
+- Producer, Consumer, Topic, Consumer group
+- Replication
+- Partition, Offset
+- Kafka vs Flink vs Spark Streaming
+  
 #### Git
 
 #### Airflow
+
+#### Hadoop
+- Architecture
+- Formats (ORC, AVRO, Parquet, Hudi, Iceberg, Delta Lake)
+- MapReduce
