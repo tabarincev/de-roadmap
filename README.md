@@ -133,6 +133,7 @@
 - Jinja templates
 - backfill & catchup
 - Pool vs Queue
+- Connections vs Hooks
 
 #### Hadoop
 - Architecture
