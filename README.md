@@ -1,7 +1,7 @@
 # Data Enginner Roadmap 2024
 
 ## Concepts 
-#### [Data Architecture](#concepts/Architecture.md)
+#### [Data Architecture](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md)
 - Data Lake
 - Data Mart
 - Data Mesh
