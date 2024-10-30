@@ -7,28 +7,28 @@
 - [Data Mesh](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
 - [Lambda vs Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
 
-#### Data Governance
+#### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
 
-#### Data Pipeline
+#### [Data Pipeline](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataPipeline.md)
 - CDC
 - ELT
 - ETL
 - Hot vs Warm vs Cold data
 - SCD2
   
-#### Data Modeling
+#### [Data Modeling](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataModeling.md)
 - Data Vault 2.0
 - Anchor Modeling
 - HnNf
 
-#### Processing
+#### [Data Processing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Processing.md)
 - Batch vs Stream
 - OLTP vs OLAP vs HTAP
 
-#### Data Quality
+#### [Data Quality](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataQuality.md)
 
 
-#### SQL Concepts
+#### [SQL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/SQL.md)
 - Indexes
 - Isolation levels (UR, CR, RR, SR)
 - Clustering
