@@ -42,6 +42,8 @@
   
 ## System Design
 
+## Modern Data Stack
+- dbt + Trino + Iceberg
 
 ## Technologies
 #### Linux
