@@ -8,7 +8,9 @@
 - [Lambda vs Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
 
 #### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
-
+- Principals
+- Tools
+  
 #### [Data Pipeline](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataPipeline.md)
 - CDC
 - ELT
