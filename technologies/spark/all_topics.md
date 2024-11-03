@@ -37,7 +37,9 @@
 - Driver
 - Spark Context
 - Worker
-- Executor
+    - Executor
+    - Task
+    - Job
 - Cluster Manager
 
 ## Spark UI
