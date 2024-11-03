@@ -34,10 +34,11 @@
 ## Компоненты Spark приложения (стр 169)
 ![arch](https://f133fde2.rocketcdn.me/wp-content/uploads/2020/07/apache-spark-architecture.png)
 
-- Драйвер (Приложение) Driver
-- Исполнитель (Executor)
+- Driver
+- Spark Context
+- Worker
+- Executor
 - Cluster Manager
-
 
 ## Spark UI
 - Информация о кластере
