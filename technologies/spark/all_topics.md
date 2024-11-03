@@ -32,7 +32,7 @@
 
 
 ## Компоненты Spark приложения (стр 169)
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fapache-spark-architecture&psig=AOvVaw0gx-OJQaur81AW8gwEPl0i&ust=1730758642815000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKj_6MKYwYkDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/6003d76e-653b-49e4-bd0d-da7cd30c2101)
+![arch](https://f133fde2.rocketcdn.me/wp-content/uploads/2020/07/apache-spark-architecture.png)
 
 - Драйвер (Приложение) Driver
 - Исполнитель (Executor)
