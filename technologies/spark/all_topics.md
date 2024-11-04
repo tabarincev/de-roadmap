@@ -1,5 +1,12 @@
 # Spark Roadmap
 
+## Spark vs MapReduce
+| Spark | MapReduce |
+| Batch + RealTime | Только Batch |
+| Быстрее в 100 раз | Медленно |
+| Обработка в RAM | Обработка с записью в HDFS |
+| Cache + RAM | Привязка к диску |
+
 ## Компоненты Spark
 - Spark SQL
 - Spark Streaming
