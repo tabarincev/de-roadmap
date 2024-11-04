@@ -1,12 +1,11 @@
 # Spark Roadmap
 
 ## Spark vs MapReduce
-| Spark | MapReduce |
-| _____ | _________ |
-| Batch + RealTime | Только Batch |
-| Быстрее в 100 раз | Медленно |
-| Обработка в RAM | Обработка с записью в HDFS |
-| Cache + RAM | Привязка к диску |
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Компоненты Spark
 - Spark SQL
