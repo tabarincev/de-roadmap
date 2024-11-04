@@ -1,6 +1,6 @@
 ## Introduction
-1.1 Пустой DataFrame
-```
+#### 1. Пустой DataFrame
+```python
 import pyspark.sql.types as T
 
 from pyspark.sql import SparkSession
