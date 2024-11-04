@@ -89,18 +89,16 @@
 - Процесс
 - Конфигурация
 
+## Perfomance Tunning
+https://spark.apache.org/docs/latest/sql-performance-tuning.html#join-strategy-hints-for-sql-queries
+- Кэширование
+- Опции конфигурации
+- Хинты для JOIN
+- Хинты для COALESCE
+- AQE
+  
 
 ## Тестирование
 - Build-In функции
 - Unittest
 - PyTest
-
-
-
-
-
-
-
-
-
-
