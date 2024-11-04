@@ -1,14 +1,14 @@
 # Cookbook
 
-- Introduction
-- Filtering rows
-- Array operations
-- Text processing
-- Time operations
-- Numeric operations
-- Dataframe joins
-- Agrregating & map
-- Sampling
+- [Introduction](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#introduction)
+- [Filtering rows](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#filtering-rows)
+- [Array operations](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#array-operations)
+- [Text processing](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#text-processing)
+- [Time operations](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#time-operations)
+- [Numeric operations](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#numeric-operations)
+- [Dataframe joins](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#dataframe-joins)
+- [Agrregating & map](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#agrregating--map)
+- [Sampling](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Cookbook.md#sampling)
 
 ## Introduction
 
