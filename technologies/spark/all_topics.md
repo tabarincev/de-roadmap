@@ -2,6 +2,7 @@
 
 ## Spark vs MapReduce
 | Spark | MapReduce |
+| _____ | _________ |
 | Batch + RealTime | Только Batch |
 | Быстрее в 100 раз | Медленно |
 | Обработка в RAM | Обработка с записью в HDFS |
