@@ -1,18 +1,35 @@
 ## Introduction
+
+#### 0. Инициализация SparkSession
+```python
+with SparkSession.builder.master("local[1]").appName("<YOUR_APP_NAME>").getOrCreate() as spark:
+  pass
+```
+
 #### 1. Пустой DataFrame
 ```python
 import pyspark.sql.types as T
 
-from pyspark.sql import SparkSession
+schema = T.StructType(
+  [
+    T.StructField("A", T.ArrayType(T.StringType()), True),
+    T.StructField("B", T.ArrayType(T.StringType()), True),
+  ]
+)
 
-with SparkSession.builder.master("local[1]").appName("test-app").getOrCreate() as spark:
-  schema = T.StructType(
-      [
-          T.StructField("A", T.ArrayType(T.StringType()), True),
-          T.StructField("B", T.ArrayType(T.StringType()), True),
-      ]
-  )
-  data = []
-  df = spark.createDataFrame(schema=schema, data=data)
-  df.show()
+data = []
+df = spark.createDataFrame(schema=schema, data=data)
+df.show()
+```
+
+#### 2. DataFrame из словаря
+```python
+import pyspark.sql.functions as F
+
+dict_a = {"key1": "value1", "key2": "value2"}
+values = [(k, v) for k, v in dict_a.items()]
+columns = ["key", "value"]
+  
+df = spark.createDataFrame(values, columns)
+df.show()
 ```
