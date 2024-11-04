@@ -2,10 +2,12 @@
 
 ## Spark vs MapReduce
 
-| First Header  | Second Header |
+| Spark  | MapReduce |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Batch + RealTime | Только Batch |
+| Быстрее в 100 раз | Медленно |
+| Обработка в RAM | Обработка с записью в HDFS |
+| Cache + RAM | Привязка к диску |
 
 ## Компоненты Spark
 - Spark SQL
