@@ -102,3 +102,5 @@ https://spark.apache.org/docs/latest/sql-performance-tuning.html#join-strategy-h
 - Build-In функции
 - Unittest
 - PyTest
+
+## Cookbook
