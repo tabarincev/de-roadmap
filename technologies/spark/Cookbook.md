@@ -1,3 +1,15 @@
+# Cookbook
+
+- Introduction
+- Filtering rows
+- Array operations
+- Text processing
+- Time operations
+- Numeric operations
+- Dataframe joins
+- Agrregating & map
+- Sampling
+
 ## Introduction
 
 #### 0. Инициализация SparkSession
@@ -33,3 +45,20 @@ columns = ["key", "value"]
 df = spark.createDataFrame(values, columns)
 df.show()
 ```
+
+
+## Filtering rows
+
+## Array operations
+
+## Text processing
+
+## Time operations
+
+## Numeric operations
+
+## Dataframe joins
+
+## Agrregating & map
+
+## Sampling
