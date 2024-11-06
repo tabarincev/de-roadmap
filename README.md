@@ -44,7 +44,12 @@
 - Execution plan optimization
   
 ## System Design
+- https://divyumrastogi.gitbooks.io/system-design/content/the_system_design_primer/anki_flashcards.html
+- https://youtu.be/bUHFg8CZFws
+- https://youtu.be/ZgdS0EUmn70?si=DMh6I_hoKulUPXK9
+- https://habr.com/ru/companies/yandex/articles/564132/
 
+  
 ## Modern Data Stack
 - dbt + Trino + Iceberg
 
