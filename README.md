@@ -40,7 +40,24 @@
 - How database physically stores data ?
 - DDL vs DML vs DCL vs TCL
 - RBAC
-- Physical joins (Nested loop, Merge sort join, Hash join) https://www.youtube.com/watch?v=pJWCwfv983Q
+- Physical joins (Nested loop, Merge sort join, Hash join) https://www.youtube.com/watch?v=pJWCwfv983Q \
+  - Hash Join \ 
+экви-джоин (строго по равенству) большой и маленькой таблицы. Маленькая помещается в память, ключи обеих таблиц хэшируются, 
+один раз проходим по большой таблице и один раз по маленькой. 
+O(m+n) по времени + O(n) по памяти
+Визуализация - https://bertwagner.com/posts/hash-match-join-internals/
+
+  - Sort Merge Join \
+экви-джоин двух больших таблиц, которые не помещаются в память. Сортируем по ключу и проходимся "замочком", состёгивая две таблицы вместе. \
+Если сортировка проводится за O(n*log(n)), то O (n*log(n) + m*log(m) + n + m) -> (n+m) схлопываются как незначительные, получаем O(n*log(n)) + m*log(m)). 
+В заранее отсортированных массивах O(m+n)
+Визуализация - https://bertwagner.com/posts/visualizing-merge-join-internals-and-understanding-their-implications/
+
+  - Nested loop \
+все остальные джоины ( a.id >= b.id, a.id like '%word%' и прочие != ), каждое значение левой таблицы сопоставляем со значением с правой таблицы (аналог CROSS JOIN), \
+сложность O(n*m).
+Визуализация - https://bertwagner.com/posts/visualizing-nested-loops-joins-and-understanding-their-implications/
+
 - Execution plan optimization
   
 ## System Design
