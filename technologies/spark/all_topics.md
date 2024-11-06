@@ -126,7 +126,7 @@ Spark сохраняет выходные данные перемешивани�
 https://spark.apache.org/docs/latest/sql-performance-tuning.html#join-strategy-hints-for-sql-queries
 - Подбор конфигурации для приложения
 - Кэширование
-- Опции конфигурации
+- Опции конфигурации (https://spark.apache.org/docs/3.5.2/configuration.html)
     - sql.shuffle.partittions \
       Объем данных:
          - 100-200 (< 1Гб)
