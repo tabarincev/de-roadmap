@@ -84,7 +84,7 @@
 - System tables
 #### PostgreSQL
 
-#### Spark
+#### Spark (https://quizlet.com/964581753/spark-flash-cards/?i=66jmdb&x=1jqt)
 - Architecture
 - Shuffle vs Broadcast
 - Actions vs Transformations
@@ -130,7 +130,7 @@
   
 #### Git
 
-#### Airflow
+#### Airflow (https://quizlet.com/de/966067770/airflow-de-flash-cards/)
 - Architecture
 - DAG
 - Operators
