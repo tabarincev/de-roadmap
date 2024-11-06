@@ -15,6 +15,9 @@
 - Spark MLlib
 - Spark GraphX
 
+## Memory Managment 
+- https://community.cloudera.com/t5/Community-Articles/Spark-Memory-Management/ta-p/317794
+  
 ## Примеры чтения форматов
 - Доступные форматы (стр 216)
 - Проблемы чтения (стр 215)
@@ -124,7 +127,7 @@ Spark сохраняет выходные данные перемешивани�
 
 ## Perfomance Tunning
 https://spark.apache.org/docs/latest/sql-performance-tuning.html#join-strategy-hints-for-sql-queries
-- Подбор конфигурации для приложения
+- Подбор конфигурации для приложения (https://medium.com/expedia-group-tech/part-3-efficient-executor-configuration-for-apache-spark-b4602929262)
 - Кэширование
 - Опции конфигурации (https://spark.apache.org/docs/3.5.2/configuration.html)
     - sql.shuffle.partittions \
