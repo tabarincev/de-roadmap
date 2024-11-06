@@ -24,11 +24,12 @@
 - HnNf
 
 #### [Data Processing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Processing.md)
-- Batch vs Stream
+- Batch vs Stream vs Micro-Batch
 - OLTP vs OLAP vs HTAP
 
 #### [Data Quality](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataQuality.md)
-
+- Dimensions
+- Tools
 
 #### [SQL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/SQL.md)
 - Indexes
