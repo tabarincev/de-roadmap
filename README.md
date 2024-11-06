@@ -80,6 +80,8 @@
 - Data formats
 - Blocks
 - Mutations
+- Monitoring
+- System tables
 #### PostgreSQL
 
 #### Spark
