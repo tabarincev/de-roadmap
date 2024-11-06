@@ -40,7 +40,7 @@
 - How database physically stores data ?
 - DDL vs DML vs DCL vs TCL
 - RBAC
-- Physical joins (Nested loop, Merge sort join, Hash join)
+- Physical joins (Nested loop, Merge sort join, Hash join) https://www.youtube.com/watch?v=pJWCwfv983Q
 - Execution plan optimization
   
 ## System Design
