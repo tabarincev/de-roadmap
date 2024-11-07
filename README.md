@@ -32,6 +32,8 @@
 - Tools
 
 #### [SQL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/SQL.md)
+
+https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g&t=495
 - Indexes
 - Isolation levels (UR, CR, RR, SR)
 - Clustering
@@ -173,3 +175,5 @@ O(m+n) по времени + O(n) по памяти
 
 #### DBT 
 - https://github.com/dbt-labs/dbt-project-maturity/tree/main
+
+
