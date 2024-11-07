@@ -168,3 +168,6 @@ O(m+n) по времени + O(n) по памяти
 - Architecture
 - Formats (ORC, AVRO, Parquet, Hudi, Iceberg, Delta Lake)
 - MapReduce
+
+#### DBT 
+- https://github.com/dbt-labs/dbt-project-maturity/tree/main
