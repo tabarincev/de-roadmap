@@ -71,6 +71,8 @@ O(m+n) по времени + O(n) по памяти
 - dbt + Trino + Iceberg
 
 ## Technologies
+
+#### Python - https://github.com/yakimka/python_interview_questions/tree/master
 #### Linux
 - Navigation
 - Working with files
