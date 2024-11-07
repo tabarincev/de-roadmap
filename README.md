@@ -82,7 +82,7 @@ O(m+n) по времени + O(n) по памяти
 - Utils
 - SSH
 
-#### Docker
+#### Docker (https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
 - Basics
 - Conteiner vs VM
 - Build & Run conteiners
@@ -164,7 +164,7 @@ O(m+n) по времени + O(n) по памяти
 - Pool vs Queue
 - Connections vs Hooks
 
-#### Hadoop
+#### Hadoop (https://youtu.be/N6TmDNexxGI?si=FOKcoRbKQ87qXjGz)
 - Architecture
 - Formats (ORC, AVRO, Parquet, Hudi, Iceberg, Delta Lake)
 - MapReduce
