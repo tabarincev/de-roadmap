@@ -35,7 +35,7 @@
 
 https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g&t=495
 - [Indexes](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md)
-- Isolation levels (UR, CR, RR, SR)
+- [Isolation levels](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/IsolationLayers.md)
 - Clustering
 - Sharding & Replication (https://habr.com/ru/companies/ozontech/articles/705912/)
 - How database physically stores data ?
