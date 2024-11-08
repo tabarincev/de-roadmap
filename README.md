@@ -37,8 +37,7 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
 - Indexes
 - Isolation levels (UR, CR, RR, SR)
 - Clustering
-- Sharding
-- Replication
+- Sharding & Replication (https://habr.com/ru/companies/ozontech/articles/705912/)
 - How database physically stores data ?
 - DDL vs DML vs DCL vs TCL
 - RBAC
