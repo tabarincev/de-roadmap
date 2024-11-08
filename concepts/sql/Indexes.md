@@ -66,7 +66,7 @@ CREATE INDEX idx_example ON table_name (column1) INCLUDE (column2);
 - Для OLAP, где важно быстрое чтение данных без необходимости частых обновлений.
 
 ## Реализации индекса
-#### B-Tree
+## B-Tree
 - Основан на работе ```B-Tree``` дерева.
 - Подходит для операций сравнения (`<`, `>`, `BETWEEN`), равенства (`=`) и сортировки.
 - Хорошо оптимизирован для большинства операций чтения и поиска.
@@ -78,12 +78,12 @@ CREATE INDEX idx_example ON table_name (column1) INCLUDE (column2);
 CREATE INDEX idx_user ON test.user (id);
 ```
 
-#### Hash
+## Hash
 
-#### GIN
+## GIN
 
-#### GiST
+## GiST
 
-#### SP-GiST
+## SP-GiST
 
-#### BRIN
+## BRIN
