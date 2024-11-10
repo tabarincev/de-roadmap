@@ -1,6 +1,27 @@
 ## List of content
 - Основные концепции и архитектура
   - Архитектура
+    - Компоненты (Spark Core)
+      - Spark SQL
+      - Spark GraphX
+      - Spark Streaming
+      - Spark MLlib
+    - Архитектура Spark-кластера
+      - Компоненты
+        - Driver
+        - Worker Node
+        - Executor
+      - Менеджер ресурсов
+        - YARN
+        - Mesos
+        - k8s
+      - Режим взаимодействия
+        - Client
+        - Cluster
+    - Структура Spark-задания
+      - Job
+      - Stage
+      - Task
   - Отложенные вычисления
   - Планирование задач
     - Управление памятью
