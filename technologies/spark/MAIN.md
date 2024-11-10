@@ -24,16 +24,19 @@
       - [Job](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#job)
       - [Stage](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#stage)
       - [Task](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#task)
-  - Отложенные вычисления
-  - Планирование задач
-    - Управление памятью
-      - Dynamic
-      - Static
-    - Структура заданий Spark
-      - Jobs
-      - Stage
-      - Task
-      - DAG
+  - Отложенные вычисления (Lazy evaluations)
+    - Что такое отложенные вычисления ?
+    - Преимущества
+    - Отказоустойчивость
+    - Отладка
+  - Memory Managment
+    - Варианты управления памятью
+      - RAM в виде десериализованных Java объектов
+      - В виде сериализованных объектов
+      - На диске
+    - Динамическая и статическая аллокация
+  - Actions и Transformations
+    - Узкие и широкие зависимости (narrow и wide)
   - Shared Variables & Broadcast Variables & Accumulators
 - Управление ресурсами
   - Конфигурация Spark-приложения
