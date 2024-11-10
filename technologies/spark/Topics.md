@@ -2,7 +2,16 @@
 - Основные концепции и архитектура
   - Архитектура
   - Отложенные вычисления
-  - Управление памятью
+  - Планирование задач
+    - Управление памятью
+      - Dynamic
+      - Static
+    - Структура заданий Spark
+      - Jobs
+      - Stage
+      - Task
+      - DAG
+  - Shared Variables & Broadcast Variables & Accumulators
   - Spark-кластер (YARN vs K8S)
   - Client vs Cluster
   - Spark Context & Spark Connect
@@ -10,7 +19,6 @@
 - Управление ресурсами
   - Конфигурация Spark-приложения
   - Окружение
-  - Динамическая аллокация памяти
 - Параллелизм и разделение данных
   - Shuffle vs Broadcast
   - Partition pruning (Dynamic)
@@ -31,9 +39,6 @@
     - checkpoint
   - PyArrow в PySpark
   - AQE (Adaptive Query Execution)
-- Этапы работы Spark-приложения
-  - Jobs vs Stage vs Task
-  - Shared Variables & Broadcast Variables & Accumulators
 - Особенности интеграции Python и Spark
   - Python Serialization & Deserialization
   - Py4J и взаимодействие JVM-Python
