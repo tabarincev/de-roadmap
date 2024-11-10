@@ -88,7 +88,7 @@ O(m+n) по времени + O(n) по памяти
 ## Technologies
 
 #### Python - https://github.com/yakimka/python_interview_questions/tree/master
-#### ![linux_icon](https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png) Linux
+#### <img align="left" width="80" height="80" src="https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png" alt="Bash icon"> Linux
 - Navigation
 - Working with files
 - Text processing
