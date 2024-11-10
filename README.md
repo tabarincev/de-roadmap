@@ -129,9 +129,15 @@ O(m+n) по времени + O(n) по памяти
 - Mutations
 - Monitoring
 - System tables
+
+<img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/117208740-bfb78400-adf5-11eb-97bb-09072b6bedfc.png" alt="PostgreSQL icon">
+
 #### PostgreSQL
 
-#### Spark (https://quizlet.com/964581753/spark-flash-cards/?i=66jmdb&x=1jqt)
+<img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/184357834-eba1eee1-6074-4b9c-8ed3-5373868096cc.png" alt="Spark icon">
+
+#### Spark 
+(https://quizlet.com/964581753/spark-flash-cards/?i=66jmdb&x=1jqt)
 - Architecture
 - Shuffle vs Broadcast
 - Actions vs Transformations
@@ -197,4 +203,4 @@ O(m+n) по времени + O(n) по памяти
 #### DBT 
 - https://github.com/dbt-labs/dbt-project-maturity/tree/main
 
-
+#### k8s
