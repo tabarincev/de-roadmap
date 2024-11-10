@@ -1,6 +1,8 @@
 ## List of content
 - Основные концепции и архитектура
   - Архитектура
+  - Отложенные вычисления
+  - Управление памятью
   - Spark-кластер (YARN vs K8S)
   - Client vs Cluster
   - Spark Context & Spark Connect
