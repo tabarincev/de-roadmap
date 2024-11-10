@@ -5,68 +5,6 @@ Spark Cluster on YARN vs k8s
 Cluster vs Client mode
 Driver vs Executor
 Spark Connect
-2. Управление ресурсами и конфигурация
-Dynamic allocation
-Spark App configuration
-Graceful Shutdown
-3. Параллелизм и разбиение данных
-Shuffle vs Broadcast
-Partition pruning (Dynamic)
-Wide vs Narrow
-Repartition vs Coalesce
-Data Locality
-Data Skew
-Bucketing vs Partitioning
-4. Производительность и оптимизация
-Catalyst
-AQE (Adaptive Query Execution)
-Spill-effect
-Projection pushdown
-Profiling & Debug
-Pipeline examples
-5. Работа с данными: API и структуры данных
-RDD vs DataSet vs DataFrame
-Actions vs Transformations
-cache() vs persist()
-take() vs collect()
-PyArrow in PySpark
-6. Обработка запросов и их этапы
-Jobs vs Stages vs Tasks
-Joins & Hints
-Shared Variables & Broadcast Variables & Accumulators
-7. Модели данных и оптимизация хранения
-Joins & Hints
-Bucketing vs Partitioning
-Journaling
-8. Масштабируемость и устойчивость
-Scalability
-Testing
-UDF
-9. Отладка и управление памятью
-Garbage collector
-Profiling & Debug
-10. Особые сценарии и тестирование
-Data Locality
-Testing
-Graceful Shutdown
-
-
-
-
-
-Вы сказали:
-Добавь необходимые группы и топики по Pyspark 
-ChatGPT сказал:
-ChatGPT
-Дополняю структуру с учетом специфики PySpark. Включим новые группы и топики, которые акцентируют внимание на особенностях работы с Python, интеграцией с PySpark API, управлением памятью, а также расширенными возможностями для оптимизации и отладки.
-
-1. Основные концепции и архитектура Spark
-Architecture
-Spark Context
-Spark Cluster on YARN vs k8s
-Cluster vs Client mode
-Driver vs Executor
-Spark Connect
 PySpark API
 2. Управление ресурсами и конфигурация
 Dynamic allocation
