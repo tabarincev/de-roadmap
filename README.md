@@ -174,13 +174,16 @@ O(m+n) по времени + O(n) по памяти
 - cache() vs persist()
 - Graceful Shutdown
 
-  
+<img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/192107004-2d2fff80-d207-4916-8a3e-130fee5ee495.png" alt="Kafka icon">
+
 #### Kafka
 - Producer, Consumer, Topic, Consumer group
 - Replication
 - Partition, Offset
 - Kafka vs Flink vs Spark Streaming
-  
+
+<img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git icon">
+
 #### Git
 
 #### Airflow (https://quizlet.com/de/966067770/airflow-de-flash-cards/)
@@ -194,6 +197,8 @@ O(m+n) по времени + O(n) по памяти
 - backfill & catchup
 - Pool vs Queue
 - Connections vs Hooks
+
+<img align="left" width="25" height="25" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/c7f2fa08-bb92-4898-a73e-b206be6bd573" alt="Hadoop icon">
 
 #### Hadoop (https://youtu.be/N6TmDNexxGI?si=FOKcoRbKQ87qXjGz)
 - Architecture
