@@ -86,9 +86,11 @@ O(m+n) по времени + O(n) по памяти
 - dbt + Trino + Iceberg
 
 ## Technologies
+<img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python icon">
 
 #### Python - https://github.com/yakimka/python_interview_questions/tree/master
-<img align="left" width="30" height="30" src="https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png" alt="Bash icon">
+
+<img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png" alt="Bash icon">
 
 #### Linux
 
@@ -102,7 +104,10 @@ O(m+n) по времени + O(n) по памяти
 - Utils
 - SSH
 
-#### Docker (https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
+<img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png" alt="Docker icon">
+
+#### Docker
+(https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
 - Basics
 - Conteiner vs VM
 - Build & Run conteiners
