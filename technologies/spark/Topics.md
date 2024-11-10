@@ -23,6 +23,10 @@
     - OOM
     - UDF & UDAF
   - Хинты
+  - Кэширование
+    - cache и persist (unpersist)
+    - Уровни хранения данных
+    - checkpoint
   - PyArrow в PySpark
   - AQE (Adaptive Query Execution)
 - Этапы работы Spark-приложения
@@ -35,3 +39,7 @@
   - Data Locality в контексте PySpark
 - Тестирование и отладка
   - Unit Testing и Mocking в PySpark
+  - Библиотеки для тестирования
+    - Unittest
+    - PyTest
+    - Build-in
