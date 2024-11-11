@@ -6,6 +6,8 @@
 - [Data Warehouse](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
 - [Data Mesh](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
 - [Lambda vs Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
+- Kimball vs Inmon (https://docs.getdbt.com/blog/kimball-dimensional-model)
+- Star vs Snowflake
 
 #### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
 - Principals
