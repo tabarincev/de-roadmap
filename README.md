@@ -48,6 +48,7 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
 - [Isolation levels](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/IsolationLayers.md)
 - [Clustering](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md)
 - Sharding & Replication (https://habr.com/ru/companies/ozontech/articles/705912/)
+- Table vs View vs Materialized View
 - Нормальные формы (https://habr.com/ru/articles/254773/)
   - Термины
   - 1NF - 6NF
