@@ -216,3 +216,7 @@ O(m+n) по времени + O(n) по памяти
 - https://github.com/dbt-labs/dbt-project-maturity/tree/main
 
 #### k8s
+
+
+#### Resources
+https://mehulkansal.hashnode.dev
