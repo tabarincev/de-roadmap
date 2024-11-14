@@ -63,6 +63,7 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
 - How database physically stores data ?
 - DDL vs DML vs DCL vs TCL
 - RBAC
+- Query Engine (https://howqueryengineswork.com/00-introduction.html)
 - Physical joins (Nested loop, Merge sort join, Hash join) https://www.youtube.com/watch?v=pJWCwfv983Q \
   - Hash Join \ 
 экви-джоин (строго по равенству) большой и маленькой таблицы. Маленькая помещается в память, ключи обеих таблиц хэшируются, 
