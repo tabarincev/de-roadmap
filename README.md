@@ -92,7 +92,7 @@ O(m+n) по времени + O(n) по памяти
 
   
 ## Modern Data Stack
-- dbt + Trino + Iceberg
+- [Dbt + Trino + Iceberg](https://github.com/tabarincev/modern-data-pipeline)
 
 ## Technologies
 <img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python icon">
