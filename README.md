@@ -3,11 +3,11 @@
 ## Concepts 
 #### [Data Architecture](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md)
 - [Data Lake](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
-- LakeHouse
-- [Data Warehouse](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
+- [LakeHouse](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/lakehouse.md)
+- [Data Warehouse](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/data_warehouse.md)
 - [Data Mesh](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
-- [Lambda vs Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
-- Kimball vs Inmon (https://docs.getdbt.com/blog/kimball-dimensional-model)
+- [Lambda](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/lambda.md) vs [Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/kappa.md)
+- [Kimball](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/kimball.md) vs [Inmon](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/inmon.md) (https://docs.getdbt.com/blog/kimball-dimensional-model)
 - Star vs Snowflake
 
 #### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
