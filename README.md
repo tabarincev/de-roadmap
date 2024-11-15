@@ -11,8 +11,8 @@
 - [Star](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/star.md) vs [Snowflake](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/snowflake.md)
 
 #### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
-- Principals
-- Tools
+- [Principals](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_governance/principals.md)
+- [Tools](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_governance/tools.md)
   
 #### [Data Pipeline](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataPipeline.md)
 - CDC
