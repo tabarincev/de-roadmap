@@ -8,7 +8,7 @@
 - [Data Mesh](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
 - [Lambda](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/lambda.md) vs [Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/kappa.md)
 - [Kimball](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/kimball.md) vs [Inmon](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/inmon.md) (https://docs.getdbt.com/blog/kimball-dimensional-model)
-- Star vs Snowflake
+- [Star](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/star.md) vs [Snowflake](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/snowflake.md)
 
 #### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
 - Principals
