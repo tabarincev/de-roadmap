@@ -15,16 +15,16 @@
 - [Tools](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_governance/tools.md)
   
 #### [Data Pipeline](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataPipeline.md)
-- CDC
-- ELT
-- ETL
+- [CDC](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/cdc.md)
+- [ELT](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/elt.md)
+- [ETL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/etl.md)
 - Hot vs Warm vs Cold data
-- SCD2
+- [SCD](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/scd.md)
   
 #### [Data Modeling](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataModeling.md)
-- Data Vault 2.0
-- Anchor Modeling
-- HnNf
+- [Data Vault](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/data_vault.md)
+- [Anchor Modeling](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/anchor.md)
+- [HnNf](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/hnnf.md)
 
 #### [Data Processing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Processing.md)
 - Batch vs Stream vs Micro-Batch
