@@ -53,6 +53,7 @@
   - Перекосы в данных
   - Bucketing vs Partitioning
 - Производительность и оптимизация приложения
+  https://www.analyticsvidhya.com/blog/2021/08/best-practices-and-performance-tuning-activities-for-pyspark/
   - Catalyst
   - Проблемы
     - Spill
