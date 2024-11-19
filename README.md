@@ -131,7 +131,7 @@ O(m+n) по времени + O(n) по памяти
 - Views Types
 - Dictionaries
 - Engines
-- Parts
+- Parts & Partitions (https://chistadata.com/parts-and-partitions-in-clickhouse-part-i/)
 - Indexes
 - Joins 
 - Data formats
