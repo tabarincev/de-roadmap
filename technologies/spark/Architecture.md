@@ -57,7 +57,9 @@ API для вычислений на графах. GraphX — один из на
 #### Mesos
 #### k8s
 
-### Режим взаимодействия 
+### Режим взаимодействия
+
+https://habr.com/ru/companies/sberbank/articles/805285/
 #### Client
 
 #### Cluster
