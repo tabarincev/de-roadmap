@@ -90,6 +90,7 @@ O(m+n) по времени + O(n) по памяти
 - https://youtu.be/bUHFg8CZFws
 - https://youtu.be/ZgdS0EUmn70?si=DMh6I_hoKulUPXK9
 - https://habr.com/ru/companies/yandex/articles/564132/
+- https://habr.com/ru/articles/850888/
 
   
 ## Modern Data Stack
