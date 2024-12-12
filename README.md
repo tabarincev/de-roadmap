@@ -125,6 +125,8 @@ O(m+n) по времени + O(n) по памяти
 - CLI
 - Deploy
 
+#### GreenPlum
+
 #### ClickHouse
 - ACID
 - Rebalancing & Profiling queries
