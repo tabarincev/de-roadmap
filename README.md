@@ -126,6 +126,7 @@ O(m+n) по времени + O(n) по памяти
 - Deploy
 
 #### GreenPlum
+https://greenplum.org/tutorials/
 
 #### ClickHouse
 - ACID
