@@ -16,6 +16,7 @@
 
 Память: ```O(n)```
 ### Визуализация
+https://bertwagner.com/posts/hash-match-join-internals/
 
 ## Sort Merge Join
 Экви-джоин двух больших таблиц, которые не помещаются в память. Сортируем по ключу и проходимся "замочком", состёгивая две таблицы вместе.
@@ -26,6 +27,7 @@
 
 Память: ```O(1)```
 ### Визуализация
+https://bertwagner.com/posts/visualizing-merge-join-internals-and-understanding-their-implications/
 
 ## Nested Loop
 Все остальные джоины ```a.id >= b.id, a.id like '%word%' и прочие !=```, каждое значение левой таблицы сопоставляем со значением с правой таблицы (аналог ```CROSS JOIN```)
@@ -35,3 +37,4 @@
 Память ```O(1)```
 
 ### Визуализация
+https://bertwagner.com/posts/visualizing-nested-loops-joins-and-understanding-their-implications/
