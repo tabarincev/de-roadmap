@@ -101,7 +101,6 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
     - [Грязное чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#грязное-чтение)
     - [Неповторяющееся чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#неповторяющееся-чтение)
     - [Фантомное чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#фантомное-чтение)
- 
 - [Clustering](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md)
 - Sharding & Replication (https://habr.com/ru/companies/ozontech/articles/705912/)
 - Table vs View vs Materialized View
@@ -109,11 +108,12 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
   - Термины
   - 1NF - 6NF
   - Дополнительные NF
-- Relations
-  - One-to-One
-  - One-to-Many
-  - Many-to-Many
-  - self-reference
+- [Отношение таблиц](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md)
+  - [One-to-One](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#one-to-one)
+  - [One-to-Many](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#one-to-many)
+  - [Many-to-Many](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#many-to-many)
+  - [Self-Reference](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#self-reference)
+
 - Constraints
 - How database physically stores data ?
 - DDL vs DML vs DCL vs TCL
