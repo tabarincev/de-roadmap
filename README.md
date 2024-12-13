@@ -116,7 +116,11 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
 
 - Constraints
 - How database physically stores data ?
-- DDL vs DML vs DCL vs TCL
+- [Типы команд]()
+  - [DML](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#dml)
+  - [DDL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#ddl)
+  - [DCL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#dcl)
+  - [TCL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#tcl)
 - RBAC
 - Query Engine (https://howqueryengineswork.com/00-introduction.html)
 - [Physical joins](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md)
