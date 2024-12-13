@@ -38,14 +38,14 @@
 #### [SQL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/SQL.md)
 
 https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g&t=495
-- Типы баз данных
-  - Реляционные
-  - Нереляционные (NoSQL)
-    - Документоориентированные
-    - Графовые
-    - Ключ-значение
-    - Колоночные
-  - Сравнение типов
+- [Типы баз данных](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md)
+  - [Реляционные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#реляционные)
+  - [Нереляционные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#нереляционные)
+    - [Документоориентированные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#документоориентированные)
+    - [Графовые](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#графовые)
+    - [Ключ-значение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#ключ-значение)
+    - [Колоночные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#колоночные)
+  - [Сравнение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#сравнение)
 - [Indexes](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md)
 - [Isolation levels](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/IsolationLayers.md)
 - [Clustering](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md)
