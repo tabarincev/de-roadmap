@@ -118,9 +118,26 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
 - Sharding & Replication (https://habr.com/ru/companies/ozontech/articles/705912/)
 - Table vs View vs Materialized View
 - Нормальные формы (https://habr.com/ru/articles/254773/)
-  - Термины
-  - 1NF - 6NF
-  - Дополнительные NF
+  - [Терминалогия](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#терминалогия)
+    - [Атрибут](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#атрибут)
+    - [Домен атрибута](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#домен-атрибута)
+    - [Кортеж](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#кортеж)
+    - [Отношение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#отношение)
+    - [Схема отношения](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#схема-отношения)
+    - [Проекция](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#проекция)
+    - [Функциональная зависимость](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#функциональная-зависимость)
+    - [Нормальная форма](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#нормальная-форма)
+    - [Метод нормальных форм (НФ)](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#метод-нормальных-форм-нф)
+    - [Цель нормализации](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#цель-нормализации)
+  - [Формы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#формы)
+    - [1НФ](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#1нф)
+    - [2НФ](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#2нф)
+    - [3НФ](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#3нф)
+    - [Нормальная форма Бойса-Кодда (НФБК)](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#нормальная-форма-бойса-кодда-нфбк)
+    - [4НФ](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#4нф)
+    - [5НФ](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#5нф)
+    - [6НФ](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#6нф)
+
 - [Отношение таблиц](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md)
   - [One-to-One](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#one-to-one)
   - [One-to-Many](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#one-to-many)
