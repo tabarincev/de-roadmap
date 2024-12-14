@@ -1,17 +1,17 @@
 ## List of content
 - [Что такое кластер ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#что-такое-кластер-)
-- Плюсы
-  - High Availability
-  - Load Balancing
-  - Scalability
-  - Data Redundancy and Backup
-  - Disaster Recovery 
-- Типы кластеров
-  - Shared-Nothing
-  - Shared-Disk
-  - Shared-Everything
-  - Replication
-  - Load-Balanced
+- [Плюсы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#плюсы)
+  - [High Availability](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#high-availability)
+  - [Load Balancing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#load-balancing)
+  - [Scalability](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#scalability)
+  - [Data Redundancy and Backup](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#data-redundancy-and-backup)
+  - [Disaster Recovery](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#disaster-recovery)
+- [Типы кластеров](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#типы-кластеров)
+  - [Shared-Nothing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#shared-nothing)
+  - [Shared-Disk](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#shared-disk)
+  - [Shared-Everything](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#shared-everything)
+  - [Replication](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#replication)
+  - [Load-Balanced](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#load-balanced)
  
 ## Что такое кластер ?
 https://cloudzy.com/blog/database-clustering/
@@ -33,4 +33,4 @@ A collection of databases managed by a single database management system (DBMS) 
 ### Shared-Disk
 ### Shared-Everything
 ### Replication
-  - Load-Balanced
+### Load-Balanced
