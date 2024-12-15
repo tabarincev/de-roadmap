@@ -1,0 +1,12 @@
+## List of content
+- Характеристики
+  - Completeness
+  - Validity
+  - Accuracy
+  - Timeless
+  - Integrity
+  - Consistency
+- Инструменты
+  - Great Expectations
+  - Soda Core
+  - Dbt Core
