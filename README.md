@@ -12,9 +12,14 @@
 - [Star](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/star.md) vs [Snowflake](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/snowflake.md)
 
 #### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
-- [Principals](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_governance/principals.md)
-- [Tools](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_governance/tools.md)
-  
+- [Data Quality]()
+  - [Измерения]()
+  - [Инструменты]()
+    - [Soda]()
+    - [Great Expectations]()
+- [Data Linege]()
+  - [DataHub]()
+
 #### [Data Pipeline](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataPipeline.md)
 - [CDC](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/cdc.md)
 - [ELT](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/elt.md)
@@ -30,10 +35,6 @@
 #### [Data Processing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Processing.md)
 - Batch vs Stream vs Micro-Batch
 - OLTP vs OLAP vs HTAP
-
-#### [Data Quality](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataQuality.md)
-- Dimensions
-- Tools
 
 #### [SQL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/SQL.md)
 
