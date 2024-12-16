@@ -49,12 +49,14 @@
 https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g&t=495
 - [Типы баз данных](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md)
   - [Реляционные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#реляционные)
+    - [Реляционная модель данных](https://github.com/Max-Starling/Notes/blob/master/DataModels-Databases.md#реляционная-модель-данных)
   - [Нереляционные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#нереляционные)
     - [Документоориентированные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#документоориентированные)
     - [Графовые](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#графовые)
     - [Ключ-значение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#ключ-значение)
     - [Колоночные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#колоночные)
   - [Сравнение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#сравнение)
+
 - [Индексы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md)
   - [Что такое индекс ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#что-такое-индекс-)
   - [Плюсы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#плюсы)
@@ -88,6 +90,7 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
     - [Обработка большого количества записей](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#обработка-большого-количества-записей)
     - [Агрегатные функции](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#агрегатные-функции)
     - [Логические операторы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#логические-операторы)
+
 - [Транзакции](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md)
   - [Что такое транзакция ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#что-такое-транзакция-)
   - [Операторы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#операторы)
@@ -110,6 +113,7 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
     - [Грязное чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#грязное-чтение)
     - [Неповторяющееся чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#неповторяющееся-чтение)
     - [Фантомное чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#фантомное-чтение)
+
 - [Кластер](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md)
   - [Что такое кластер ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#что-такое-кластер-)
   - [Плюсы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#плюсы)
@@ -124,12 +128,13 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
     - [Shared-Everything](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#shared-everything)
     - [Replication](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#replication)
     - [Load-Balanced](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#load-balanced)
+
 - [Масштабирование баз данных]()
   - [Шардирование]()
   - [Партиционирование]()
   - [Репликация]()
-- Table vs View vs Materialized View
-- Нормальные формы (https://habr.com/ru/articles/254773/)
+
+- [Нормальные формы]() (https://habr.com/ru/articles/254773/)
   - [Терминалогия](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#терминалогия)
     - [Атрибут](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#атрибут)
     - [Домен атрибута](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#домен-атрибута)
@@ -155,14 +160,19 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
   - [One-to-Many](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#one-to-many)
   - [Many-to-Many](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#many-to-many)
   - [Self-Reference](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#self-reference)
+
 - [Как база данных хранит данные ?]()
+
 - [Типы команд]()
   - [DML](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#dml)
   - [DDL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#ddl)
   - [DCL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#dcl)
   - [TCL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#tcl)
+
 - [Контроль и разграничение доступа - RBAC]()
-- Query Engine (https://howqueryengineswork.com/00-introduction.html)
+
+- [Query Engine]() (https://howqueryengineswork.com/00-introduction.html)
+
 - [Physical joins](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md)
   https://www.youtube.com/watch?v=pJWCwfv983Q
   - [Hash Join](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md#hash-join)
