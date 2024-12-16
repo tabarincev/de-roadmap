@@ -25,7 +25,7 @@
   - [Инструменты]()
     - [Soda]()
     - [Great Expectations]()
-- [Data Linege]()
+- [Data Lineage]()
 - [Data Catalog]()
 
 #### [Data Pipeline](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataPipeline.md)
