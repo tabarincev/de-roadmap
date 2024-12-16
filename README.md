@@ -4,7 +4,7 @@
 
 #### Data Architecture
 - [Kappa]()
-- [Lambda]()]
+- [Lambda]()
   
 #### [Storage Design]()
 - [DWH]()
