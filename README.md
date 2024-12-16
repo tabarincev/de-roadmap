@@ -26,7 +26,7 @@
     - [Soda]()
     - [Great Expectations]()
 - [Data Linege]()
-  - [DataHub]()
+- [Data Catalog]()
 
 #### [Data Pipeline](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataPipeline.md)
 - [CDC](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/cdc.md)
