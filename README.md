@@ -213,11 +213,36 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
 
 #### Docker
 (https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
-- Basics
-- Conteiner vs VM
-- Build & Run conteiners
-- CLI
-- Deploy
+- [Что такое Docker ?]()
+  - [Сравнение контейнера и виртуальной машины]()
+  - [Преимущества контейнеризации]()
+
+- [Docker]()
+  - [Архитектура]()
+  - [Этапы]()
+  - [Хранение данных - VOLUME]()
+
+- [Dockerfile]()
+  - [Использование образов с помощью FROM]()
+  - [Копирование файлов с помощью ADD И COPY]()
+  - [Запуск команд с помощью RUN и CMD]()
+  - [Рабочая директория WORKDIR]()
+  - [Аргументы ARG]()
+  - [Переменные окружения ENV]()
+  - [Порты и инструкция EXPOSE]()
+  - [Пример Dockerfile для Телеграм бота]()
+
+- [Docker Compose]()
+  - [Композиция контейнеров]()
+  - [Сервисы]()
+  - [Порядок запуска сервисов]()
+  - [Порты]()
+  - [Пример композиции контейнеров трёхуровнего приложения]()
+  - [Переменные ENVIRONMENT и ARGS]()
+  - [Передача и использование аргументов в Docker Compose]()
+  - [Проверка конфигурации]()
+
+- [Docker Swarm]()
 
 #### GreenPlum
 https://greenplum.org/tutorials/
