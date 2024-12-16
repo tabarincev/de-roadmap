@@ -124,7 +124,10 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
     - [Shared-Everything](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#shared-everything)
     - [Replication](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#replication)
     - [Load-Balanced](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#load-balanced)
-- Sharding & Replication (https://habr.com/ru/companies/ozontech/articles/705912/)
+- [Масштабирование баз данных]()
+  - [Шардирование]()
+  - [Партиционирование]()
+  - [Репликация]()
 - Table vs View vs Materialized View
 - Нормальные формы (https://habr.com/ru/articles/254773/)
   - [Терминалогия](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/NormalForms.md#терминалогия)
