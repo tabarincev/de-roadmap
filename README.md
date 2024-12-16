@@ -2,7 +2,7 @@
 
 ## Concepts 
 
-#### Data Architecture
+#### [Data Architecture]()
 - [Kappa]()
 - [Lambda]()
   
@@ -55,7 +55,7 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
     - [Ключ-значение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#ключ-значение)
     - [Колоночные](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#колоночные)
   - [Сравнение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md#сравнение)
-- [Indexes](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md)
+- [Индексы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md)
   - [Что такое индекс ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#что-такое-индекс-)
   - [Плюсы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#плюсы)
     - [Ускорение запросов](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#ускорение-запросов)
@@ -110,7 +110,7 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
     - [Грязное чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#грязное-чтение)
     - [Неповторяющееся чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#неповторяющееся-чтение)
     - [Фантомное чтение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#фантомное-чтение)
-- [Clustering](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md)
+- [Кластер](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md)
   - [Что такое кластер ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#что-такое-кластер-)
   - [Плюсы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#плюсы)
     - [High Availability](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Clustering.md#high-availability)
@@ -152,22 +152,19 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
   - [One-to-Many](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#one-to-many)
   - [Many-to-Many](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#many-to-many)
   - [Self-Reference](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#self-reference)
-
-- Constraints
-- How database physically stores data ?
+- [Как база данных хранит данные ?]()
 - [Типы команд]()
   - [DML](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#dml)
   - [DDL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#ddl)
   - [DCL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#dcl)
   - [TCL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/CommandTypes.md#tcl)
-- RBAC
+- [Контроль и разграничение доступа - RBAC]()
 - Query Engine (https://howqueryengineswork.com/00-introduction.html)
 - [Physical joins](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md)
   https://www.youtube.com/watch?v=pJWCwfv983Q
   - [Hash Join](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md#hash-join)
   - [Sort Merge Join](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md#sort-merge-join)
   - [Nested Loop](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md#nested-loop)
-- Execution plan optimization
   
 ## System Design
 - https://divyumrastogi.gitbooks.io/system-design/content/the_system_design_primer/anki_flashcards.html
