@@ -1,15 +1,23 @@
 # Data Enginner Roadmap 2024
 
 ## Concepts 
-#### [Data Architecture](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md)
-- [Data Lake](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
-- [LakeHouse](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/lakehouse.md)
-- Streamhouse (https://bigdataschool.ru/blog/news/flink/what-is-streamhouse-on-apache-flink-and-paimon.html)
-- [Data Warehouse](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/data_warehouse.md)
-- [Data Mesh](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Architecture.md#data-lake)
-- [Lambda](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/lambda.md) vs [Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/kappa.md)
-- [Kimball](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/kimball.md) vs [Inmon](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/inmon.md) (https://docs.getdbt.com/blog/kimball-dimensional-model)
-- [Star](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/star.md) vs [Snowflake](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/snowflake.md)
+
+#### Data Architecture
+- [Kappa]()
+- [Lambda]()]
+  
+#### [Storage Design]()
+- [DWH]()
+  - [Kimball]()
+  - [Inmon]()
+  - [Snowflake]()
+  - [Star]()
+- [Data Lakes]()
+  - [Data Lake]()
+  - [Data Lakehouse]()
+  - [Streamhouse]()
+- [Data Mesh]()
+- [Data Fabric]()
 
 #### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
 - [Data Quality]()
@@ -301,7 +309,7 @@ https://greenplum.org/tutorials/
 #### k8s
 
 ## Общее
-- [ООП]
+- [ООП]()
   - [Инкапсуляция]()
   - [Наследование]()
   - [Полиморфизм]()
@@ -346,12 +354,12 @@ https://greenplum.org/tutorials/
   - [Пирамида тестирования]()
   - [Mock]()
   - [Виды тестов]()
-    - [Unit-тесты]
-    - [Интеграционные тесты (Integration tests)]
-    - [Функциональное тестирование]
-    - [Системный тест (System test, Service test)]
-    - [Проверка работоспособности (Smoke test, Sanity check)]
-    - [Регрессионное тестирование (Regression testing)]
+    - [Unit-тесты]()
+    - [Интеграционные тесты (Integration tests)]()
+    - [Функциональное тестирование]()
+    - [Системный тест (System test, Service test)]()
+    - [Проверка работоспособности (Smoke test, Sanity check)]()
+    - [Регрессионное тестирование (Regression testing)]()
     - [Прочее]()
 
 #### Resources
