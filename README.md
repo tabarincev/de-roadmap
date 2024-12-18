@@ -365,16 +365,34 @@ https://greenplum.org/tutorials/
 - [Git Bash / Git Fork]()
 
 #### Airflow (https://quizlet.com/de/966067770/airflow-de-flash-cards/)
-- Architecture
-- DAG
-- Operators
-- Sensors
-- XCOM
-- TaskFlow
-- Jinja templates
-- backfill & catchup
-- Pool vs Queue
-- Connections vs Hooks
+- [Что такое Airflow ?]() 
+- [Архитектура]() 
+  - [Компоненты]() 
+    - [Необходимые]()
+    - [Дополнительные]() 
+  - [Деплой]() 
+  - [Control Flow]() 
+  - [UI]() 
+- [Термины]() 
+  - [DAG]() 
+  - [DAG Run]() 
+  - [Task]() 
+  - [Operator]() 
+  - [Sensor]() 
+  - [TaskFlow]() 
+- [Docker compose образ]()
+- [Генераторы DAG]()
+  - [Самописный]()
+  - [Библиотеки]()
+#- DAG
+#- Operators
+#- Sensors
+#- XCOM
+#- TaskFlow
+#- Jinja templates
+#- backfill & catchup
+#- Pool vs Queue
+#- Connections vs Hooks
 
 <img align="left" width="25" height="25" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/c7f2fa08-bb92-4898-a73e-b206be6bd573" alt="Hadoop icon">
 
