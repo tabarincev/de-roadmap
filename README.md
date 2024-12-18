@@ -343,6 +343,7 @@ https://greenplum.org/tutorials/
   - [Коммит и индекс]()
   - [Ветвление]()
   - [HEAD и верхушка ветки]()
+
 - [Основные команды Git]()
   - [merge]()
     - [Как работает merge]()
@@ -359,11 +360,14 @@ https://greenplum.org/tutorials/
       - [checkout]()
       - [revert]()
       - [restore]()
+
 - [Версионирование и тэги]()
+
 - [Полезные возможности Git]()
   - [Отмена последнего коммита]()
   - [Перенос коммитов из одной локальной ветки в другую]()
   - [Смена CRLF на LF одновременно для всех файлов в проекте]()
+
 - [Git flow]()
 - [SSH Github & Gitlab]()
 - [Git Config]()
@@ -389,6 +393,7 @@ https://greenplum.org/tutorials/
 - [Генераторы DAG]()
   - [Самописный]()
   - [Библиотеки]()
+
 #- DAG
 #- Operators
 #- Sensors
@@ -402,9 +407,36 @@ https://greenplum.org/tutorials/
 <img align="left" width="25" height="25" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/c7f2fa08-bb92-4898-a73e-b206be6bd573" alt="Hadoop icon">
 
 #### Hadoop (https://youtu.be/N6TmDNexxGI?si=FOKcoRbKQ87qXjGz)
-- Architecture
-- Formats (ORC, AVRO, Parquet, Hudi, Iceberg, Delta Lake)
-- MapReduce
+- [Что такое Hadoop ?]()
+- [Архитектура]()
+  - [Компоненты]()
+    - [NameNode]()
+    - [DataNode]()
+    - [Client]()
+  - [Файловая система]()
+  - [Надежность]()
+    - [Сбои диска]()
+    - [Ре-репликация]()
+    - [Heartbeet сообщение]()
+    - [Ребалансировка кластера]()
+    - [Целостность данных]()
+    - [Сбой диска метаданных]()
+    - [Снэпшоты]()
+  - [Репликация]()
+  - [Организация данных]()
+    - [Блоки]()
+    - [Репликация]()
+  - [Утилизация дискового пространства]()
+    - [Увеличение файктора репликации]()
+    - [Удаление файлов]()
+- [MapReduce]()
+  - [Архитектура]
+- [YARN]()
+  - [Архитектура]
+- [Команды HDFS]()
+  - [Пользовательские]()
+  - [Администратор]()
+  - [Дебаг]()
 
 #### DBT 
 - https://github.com/dbt-labs/dbt-project-maturity/tree/main
