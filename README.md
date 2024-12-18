@@ -337,6 +337,9 @@ https://greenplum.org/tutorials/
 - cache() vs persist()
 - Graceful Shutdown
 
+#### [Flink]()
+- [Что такое Flink ?]()
+  
 <img align="left" width="25" height="25" src="https://user-images.githubusercontent.com/25181517/192107004-2d2fff80-d207-4916-8a3e-130fee5ee495.png" alt="Kafka icon">
 
 #### Kafka
