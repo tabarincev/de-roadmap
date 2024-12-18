@@ -174,6 +174,11 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
   - [Many-to-Many](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#many-to-many)
   - [Self-Reference](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#self-reference)
 
+- [CAP теорема]()
+  - [Consistency — Согласованность]()
+  - [Availabilty - Доступность]()
+  - [Partition Tolerance - Устойчивость]()
+
 - [Как база данных хранит данные ?]()
 
 - [Типы команд]()
