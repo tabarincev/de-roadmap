@@ -5,7 +5,8 @@
 #### [Data Architecture]()
 - [Kappa]()
 - [Lambda]()
-  
+- [Какую архитектуру выбрать ?]()
+
 #### [Storage Design]()
 - [DWH]()
   - [Kimball]()
