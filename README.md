@@ -453,8 +453,46 @@ https://greenplum.org/tutorials/
   - [Администратор]()
   - [Дебаг]()
 
-#### DBT 
-- https://github.com/dbt-labs/dbt-project-maturity/tree/main
+#### DBT
+
+https://github.com/dbt-labs/dbt-project-maturity/tree/main
+
+- [Что такое DBT ?]()
+- [Установка]()
+  - [Core]()
+  - [Cloud]()
+- [Конфигурация проекта]()
+  - [Файл конфигурации]()
+  - [Переменные]()
+    - [Проект]()
+    - [Окружение]()
+  - [Библиотеки]()
+  - [Хуки и операторы]()
+  - [Output]()
+    - [Схемы]()
+    - [Базы данных]()
+    - [Алиасы]()
+    - [Names (dbt cloud)]()
+- [Деплой]()
+  - [Job Scheduler]()
+  - [Jobs]()
+  - [CI/CD]
+  - [Job команды]()
+- [Мониторинг]()
+  - [Run visibility]()
+  - [Jobs]()
+    - [Retry]()
+    - [Notifications]()
+  - [WebHooks]()
+  - [Artifacts]
+  - [Source freeshness]()
+- [Интеграция с другими инструментами]()
+  - [Airflow]()
+- [Поддиректории]()
+- [Best Practices]()
+- [DAG]()
+- [Metrics]()
+- [Models]()
 
 #### k8s
 
