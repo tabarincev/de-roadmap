@@ -72,6 +72,8 @@
 - [Производительность и оптимизация приложения]()
   https://www.analyticsvidhya.com/blog/2021/08/best-practices-and-performance-tuning-activities-for-pyspark/
   - [Оптимизатор Catalyst]()
+  - [Predicate Pushdown]()
+  - [Projection Pushdown]()
   - [Проблемы]()
     - [Spill]()
     - [Shuffle]()
