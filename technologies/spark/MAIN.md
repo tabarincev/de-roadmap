@@ -9,14 +9,14 @@
     - [Архитектура Spark-кластера](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#архитектура-spark-кластера)
       - [Компоненты](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#компоненты-1)
         - [Driver](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#driver)
-          - Spark Conf
-          - Spark Context
+          - [Spark Conf]()
+          - [Spark Context]()
         - [Worker Node](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#worker-node)
         - [Executor](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#executor)
       - [Менеджеры ресурсов (Cluster Manager)](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#менеджеры-ресурсов)
-        - YARN
-        - Mesos
-        - k8s
+        - [YARN]()
+        - [Mesos]()
+        - [k8s]()
       - [Режим взаимодействия](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#режим-взаимодействия)
         - [Client](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#client)
         - [Cluster](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#cluster)
@@ -24,27 +24,27 @@
       - [Job](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#job)
       - [Stage](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#stage)
       - [Task](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#task)
-  - Отложенные вычисления (Lazy evaluations)
-    - Что такое отложенные вычисления ?
-    - Преимущества
-    - Отказоустойчивость
-    - Отладка
-  - Memory Managment
-    - Параметра для памяти хранилища
-    - Особенности PySpark
-    - Heap
-      - Память хранилища (Storage Memory)
-      - Память выполнения (Execution Memory)
-      - Пользовательская память (User Memory)
-      - Зарезервированная память (Reserved Memory) 
-    - Off-Heap
-    - External Process Memory
-    - Динамическая и статическая аллокация
-  - Actions и Transformations
-    - Узкие и широкие зависимости (narrow и wide)
-  - Shared Variables & Broadcast Variables & Accumulators
-- Управление ресурсами
-  - Конфигурация Spark-приложения
+  - [Отложенные вычисления (Lazy evaluations)]()
+    - [Что такое отложенные вычисления ?]()
+    - [Преимущества]()
+    - [Отказоустойчивость]()
+    - [Отладка]()
+  - [Memory Managment]()
+    - [Параметра для памяти хранилища]()
+    - [Особенности PySpark]()
+    - [Heap]()
+      - [Память хранилища (Storage Memory)]()
+      - [Память выполнения (Execution Memory)]()
+      - [Пользовательская память (User Memory)]()
+      - [Зарезервированная память (Reserved Memory)]()
+    - [Off-Heap]()
+    - [External Process Memory]()
+    - [Динамическая и статическая аллокация]()
+  - [Actions и Transformations]()
+    - [Узкие и широкие зависимости (narrow и wide)]()
+  - [Shared Variables & Broadcast Variables & Accumulators]()
+- [Управление ресурсами]()
+  - [Конфигурация Spark-приложения]()
     - --master yarn (менеджер кластера, local[N], где N - количество ядер)
     - --driver-memory 4g (если не делается тяжелых операций (Например, collect) - 2-4g достаточно)
     - --executor-cores 4
@@ -56,42 +56,61 @@
     - --num-executors 30 (Количество экзекьюторов на приложение (рабочих контейнеров), обычно достаточно менее 50 экзекьюторов (50 executors * 4 cores = 200 cores). Нет смысла давать приложению больше ядер (num-executors * executor-cores), чем параметр spark.sql.shuffle.partitions (Если ядер = 400, а spark.sql.shuffle.partitions = 200, на шафле будет работать 200 ядер из 400 (200 будут простаивать)
     - conf spark.sql.sources.parallelDiscovery.treshold=0 (Во всем виноват InMemoryFileIndex - он генерирует список файлов для обработки. Проблема заключается в том что список генерируется в один поток, а NameNode часто отвечает медленно. Когда файлов немного это не является проблемой, но когда файлов много - возникают задержки. Для этого передаем задачу Listing с драйвера на отдельную джобу (Работает для сырых файлов на hdfs - ORC, JSON и тд )
 
-  - Dynamic Allocation
-    - Минусы:
+  - [Dynamic Allocation]()
+    - [Минусы]()
       - Не всегда отдает ресурсы
       - Возможны зависания и отбор ресурсов -> пересчет с 0
       - Простаивание ресурсов (прочитали много данных, отфильтровали, ресурсы остаются)
       - часто берет больше чем нужно
-  - Окружение
-- Параллелизм и разделение данных
-  - Shuffle vs Broadcast
-  - Partition pruning (Dynamic)
-  - Локальность данных
-  - Перекосы в данных
-  - Bucketing vs Partitioning
-- Производительность и оптимизация приложения
+  - [Окружение]()
+- [Параллелизм и разделение данных]()
+  - [Shuffle vs Broadcast]()
+  - [Partition pruning (Dynamic)]()
+  - [Локальность данных]()
+  - [Перекосы в данных]()
+  - [Bucketing vs Partitioning]()
+- [Производительность и оптимизация приложения]()
   https://www.analyticsvidhya.com/blog/2021/08/best-practices-and-performance-tuning-activities-for-pyspark/
-  - Catalyst
-  - Проблемы
-    - Spill
-    - Shuffle
-    - OOM
-    - UDF & UDAF
-  - Хинты
-  - Кэширование
-    - cache и persist (unpersist)
-    - Уровни хранения данных
-    - checkpoint
-  - PyArrow в PySpark
-  - AQE (Adaptive Query Execution)
-- Особенности интеграции Python и Spark
-  - Python Serialization & Deserialization
-  - Py4J и взаимодействие JVM-Python
-  - Интеграция с Pandas и NumPy
-  - Data Locality в контексте PySpark
-- Тестирование и отладка
-  - Unit Testing и Mocking в PySpark
-  - Библиотеки для тестирования
-    - Unittest
-    - PyTest
-    - Build-in
+  - [Оптимизатор Catalyst]()
+  - [Проблемы]()
+    - [Spill]()
+    - [Shuffle]()
+    - [OOM]()
+    - [UDF & UDAF]()
+  - [Хинты[Мониторинг]()
+	- [History Server]()
+	- [ListenerBus]()
+	- [Типы событий]()
+	- [Metric System]()
+	- [Metric Source]()
+	- [Metric Sink]()
+	- [Prometheus]()
+	- [Pull vs Push]()
+	- [Важные метрики]()
+		- [Количество активных задач]()
+		- [Потребление CPU]()
+		- [Потребление памяти]()
+  - [Кэширование]()
+    - [cache и persist (unpersist)]()
+    - [Уровни хранения данных]()
+    - [checkpoint]()
+  - [PyArrow в PySpark]()
+  - [AQE (Adaptive Query Execution)]()
+- [Особенности интеграции Python и Spark]()
+  - [Python Serialization & Deserialization]()
+  - [Py4J и взаимодействие JVM-Python]()
+  - [Интеграция с Pandas и NumPy]()
+  - [Data Locality в контексте PySpark]()
+- [Мониторинг]()
+	- [History Server]()
+	- [ListenerBus]()
+	- [Типы событий]()
+	- [Metric System]()
+	- [Metric Source]()
+	- [Metric Sink]()
+	- [Prometheus]()
+	- [Pull vs Push]()
+	- [Важные метрики]()
+		- [Количество активных задач]()
+		- [Потребление CPU]()
+		- [Потребление памяти]()
