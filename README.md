@@ -302,41 +302,135 @@ https://greenplum.org/tutorials/
 
 #### Spark 
 (https://quizlet.com/964581753/spark-flash-cards/?i=66jmdb&x=1jqt)
-- Architecture
-- Shuffle vs Broadcast
-- Actions vs Transformations
-- Wide vs Narrow
-- RDD vs DataSet vs DataFrame
-- Partition pruning (Dynamic)
-- Projection pushdown
-- Spill-effect
-- Dynamic allocation
-- Catalyst
-- Spark Connect
-- Spark Context
-- Driver vs Executor
-- Jobs vs Stages vs Tasks
-- Repartition vs Coalesce
-- Shared Variables & Broadcast Variables & Accumulators
-- Joins & Hints
-- Journaling
-- Cluster vs Client mode
-- Profiling & Debug
-- AQE
-- Pipeline examples
-- Spark Cluster on YARN vs k8s
-- take() vs collect()
-- Garbage collector
-- Spark App configuration
-- PyArrow in PySpark
-- Data Locality
-- Data Skew
-- Bucketing vs Paritioning
-- Scalability
-- UDF
-- Testing
-- cache() vs persist()
-- Graceful Shutdown
+## List of content
+- [Основные концепции и архитектура]()
+  - [Архитектура](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md)
+    - [Компоненты (Spark Core)](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#компоненты)
+      - [Spark SQL](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#spark-sql)
+      - [Spark GraphX](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#spark-graphx)
+      - [Spark Streaming](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#spark-streaming)
+      - [Spark MLlib](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#spark-mllib)
+    - [Архитектура Spark-кластера](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#архитектура-spark-кластера)
+      - [Компоненты](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#компоненты-1)
+        - [Driver](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#driver)
+          - [Spark Conf]()
+          - [Spark Context]()
+        - [Worker Node](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#worker-node)
+        - [Executor](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#executor)
+      - [Менеджеры ресурсов (Cluster Manager)](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#менеджеры-ресурсов)
+        - [YARN]()
+        - [Mesos]()
+        - [k8s]()
+      - [Режим взаимодействия](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#режим-взаимодействия)
+        - [Client](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#client)
+        - [Cluster](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#cluster)
+    - [API]()
+      - [RDD]()
+      - [DataFrame/Dataset]()
+    - [Структура Spark-задания](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#структура-spark-задания)
+      - [Job](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#job)
+      - [Stage](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#stage)
+      - [Task](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#task)
+  - [Отложенные вычисления (Lazy evaluations)]()
+    - [Что такое отложенные вычисления ?]()
+    - [Преимущества]()
+    - [Отказоустойчивость]()
+    - [Отладка]()
+  - [Memory Managment]()
+    - [Параметра для памяти хранилища]()
+    - [Особенности PySpark]()
+    - [Heap]()
+      - [Память хранилища (Storage Memory)]()
+      - [Память выполнения (Execution Memory)]()
+      - [Пользовательская память (User Memory)]()
+      - [Зарезервированная память (Reserved Memory)]()
+    - [Off-Heap]()
+    - [External Process Memory]()
+    - [Динамическая и статическая аллокация]()
+  - [Actions и Transformations]()
+    - [Узкие и широкие зависимости (narrow и wide)]()
+  - [Shared Variables & Broadcast Variables & Accumulators]()
+- [Управление ресурсами]()
+  - [Конфигурация Spark-приложения]()
+    - --master yarn (менеджер кластера, local[N], где N - количество ядер)
+    - --driver-memory 4g (если не делается тяжелых операций (Например, collect) - 2-4g достаточно)
+    - --executor-cores 4
+    - --executor-memory 12g (3-4g на ядро, у нас 4 ядра -> 12g)
+    - conf spark.dymamicAllocation.enabled=false
+    - --queue (выделенная очередь для задач команды)
+    - --jars (подключение внешних библиотек)
+    - conf spark.sql.shuffle.partititons=200 (отвечает за уровень параллелизма (количество партиций) на шафлах данных (джоин или аггрегации) Если он слишком маленький, то на каждое ядро будет приходить очень много данных (неоптимально), если сильно большой -> на каждое ядро будет приходить мало данных (основное время будет занимать управление тасками). Оптимально подбирать значение, чтобы на 1 ядро на шафле было от 100Mb до 300Mb (параметр shuffle read size в Spark UI)
+    - --num-executors 30 (Количество экзекьюторов на приложение (рабочих контейнеров), обычно достаточно менее 50 экзекьюторов (50 executors * 4 cores = 200 cores). Нет смысла давать приложению больше ядер (num-executors * executor-cores), чем параметр spark.sql.shuffle.partitions (Если ядер = 400, а spark.sql.shuffle.partitions = 200, на шафле будет работать 200 ядер из 400 (200 будут простаивать)
+    - conf spark.sql.sources.parallelDiscovery.treshold=0 (Во всем виноват InMemoryFileIndex - он генерирует список файлов для обработки. Проблема заключается в том что список генерируется в один поток, а NameNode часто отвечает медленно. Когда файлов немного это не является проблемой, но когда файлов много - возникают задержки. Для этого передаем задачу Listing с драйвера на отдельную джобу (Работает для сырых файлов на hdfs - ORC, JSON и тд )
+
+  - [Dynamic Allocation]()
+    - [Минусы]()
+      - Не всегда отдает ресурсы
+      - Возможны зависания и отбор ресурсов -> пересчет с 0
+      - Простаивание ресурсов (прочитали много данных, отфильтровали, ресурсы остаются)
+      - часто берет больше чем нужно
+  - [Окружение]()
+- [Параллелизм и разделение данных]()
+  - [Shuffle vs Broadcast]()
+  - [Partition pruning (Dynamic)]()
+  - [Локальность данных]()
+  - [Перекосы в данных]()
+    - [Salt]()
+    - [repartition]()
+    - [coalesce]()
+  - [Bucketing vs Partitioning]()
+- [Производительность и оптимизация приложения]()
+  https://www.analyticsvidhya.com/blog/2021/08/best-practices-and-performance-tuning-activities-for-pyspark/
+  - [Оптимизатор Catalyst]()
+  - [Predicate Pushdown]()
+  - [Projection Pushdown]()
+  - [Salt]()
+    - [JOIN]()
+    - [GROUP BY]()
+  - [Проблемы]()
+    - [Spill]()
+    - [Shuffle]()
+    - [Много маленьких файлов]()
+    - [OOM]()
+    - [UDF & UDAF]()
+  - [Хинты]()
+- [Мониторинг]()
+	- [History Server]()
+	- [ListenerBus]()
+	- [Типы событий]()
+	- [Metric System]()
+	- [Metric Source]()
+	- [Metric Sink]()
+	- [Prometheus]()
+	- [Pull vs Push]()
+	- [Важные метрики]()
+		- [Количество активных задач]()
+		- [Потребление CPU]()
+		- [Потребление памяти]()
+  - [Кэширование]()
+    - [cache и persist (unpersist)]()
+    - [Уровни хранения данных]()
+    - [checkpoint]()
+  - [PyArrow в PySpark]()
+  - [AQE (Adaptive Query Execution)]()
+- [Особенности интеграции Python и Spark]()
+  - [Python Serialization & Deserialization]()
+  - [Py4J и взаимодействие JVM-Python]()
+  - [Интеграция с Pandas и NumPy]()
+  - [Data Locality в контексте PySpark]()
+- [Мониторинг]()
+	- [History Server]()
+	- [ListenerBus]()
+	- [Типы событий]()
+	- [Metric System]()
+	- [Metric Source]()
+	- [Metric Sink]()
+	- [Prometheus]()
+	- [Pull vs Push]()
+	- [Важные метрики]()
+		- [Количество активных задач]()
+		- [Потребление CPU]()
+		- [Потребление памяти]()
 
 #### [Flink]()
 - [Что такое Flink ?]()
