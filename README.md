@@ -1,5 +1,6 @@
 # Data Enginner Roadmap 2024
 
+![](img/README_TITLE.png)
 ## Concepts 
 
 #### [Data Architecture]()
