@@ -1,4 +1,4 @@
-# Data Enginner Roadmap 2024
+# Data Enginner Roadmap 2025
 
 ![](img/README_TITLE.png)
 ## Concepts 
