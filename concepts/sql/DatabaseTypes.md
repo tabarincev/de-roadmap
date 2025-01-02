@@ -120,12 +120,11 @@
 `Колоночные базы данных` — это тип NoSQL баз данных, где данные хранятся в виде столбцов вместо традиционного хранения строк. Этот подход оптимален для аналитических задач и работы с большими объемами данных.
 
 
-## Сравнение
-# Сравнение типов NoSQL баз данных
+## Сравнение типов NoSQL баз данных
 
 | **Критерий**               | **Документные** | **Ключ-значение** | **Колоночные** | **Графовые**         |
 |-----------------------------|----------------------------|-------------------------------|----------------------------|------------------------------|
-| **Примеры**                | [MongoDB](https://www.mongodb.com), [CouchDB](https://couchdb.apache.org), [Firebase](https://firebase.google.com/docs/database?hl=ru)| Redis, Memcached, DynamoDB    | Cassandra, HBase, ClickHouse | Neo4j, ArangoDB, Amazon Neptune |
+| **Примеры**                | [MongoDB](https://www.mongodb.com), [CouchDB](https://couchdb.apache.org), [Firebase](https://firebase.google.com/docs/database?hl=ru)| [Redis](https://redis.io), [Memcached](https://memcached.org), [DynamoDB](https://aws.amazon.com/ru/dynamodb/)    | [Cassandra](https://cassandra.apache.org/_/index.html), [HBase](https://hbase.apache.org) | [Neo4j](https://neo4j.com), [ArangoDB](https://arangodb.com), [Amazon Neptune](https://aws.amazon.com/ru/neptune/) |
 | **Модель данных**          | Документы (JSON, BSON)    | Пары `ключ-значение`         | Семейства столбцов         | Узлы, рёбра, свойства        |
 | **Структура хранения**     | Гибкая (без строгой схемы)| Простая (ключ и значение)    | Столбцы, сгруппированные в семейства | Графы: узлы и связи          |
 | **Основные операции**      | CRUD по документам        | CRUD по ключу                | Чтение/запись столбцов     | Поиск и анализ связей       |
