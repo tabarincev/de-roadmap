@@ -1,9 +1,13 @@
 ## List of content
 - [Что такое Kappa ?]()
-  - [Когда использовать ?]()
-- [Что такое Lambda ?]()
-  - [Когда использовать ?]()
-- [Сравнение архитектур]()
+  
+- [Что такое Lambda ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#что-такое-lambda-)
+  - [Основные компоненты](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#основные-компоненты)
+  - [Преимущества](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#преимущества-lambda-архитектуры)
+  - [Недостатки](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#недостатки)
+  - [Визуализация архитектуры](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#визуализация-lambda-архитектуры)
+  - [Когда использовать ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#когда-использовать--1)
+- [Сравнение архитектур](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#сравнение-архитектур)
 
 
 # Что такое Kappa ?
