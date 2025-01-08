@@ -4,9 +4,10 @@
 ## Concepts 
 
 #### [Data Architecture]()
-- [Kappa]()
-- [Lambda]()
-- [Какую архитектуру выбрать ?]()
+- [Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda%26Kappa.md#что-такое-kappa-)
+- [Lambda](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda%26Kappa.md#что-такое-lambda-)
+- [Сравнение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda%26Kappa.md#сравнение-архитектур)
+- [Какую архитектуру выбрать ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#какую-архитектуру-выбрать-)
 
 #### [Storage Design]()
 - [DWH]()
