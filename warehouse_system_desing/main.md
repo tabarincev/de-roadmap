@@ -40,5 +40,5 @@
 ## 6. Выбор подхода (Lambda vs Kappa)
 | Подход | Описание                                                                 | Когда выбирать                                                                 |
 |--------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Lambda | Отдельные pipeline’ы для batch и stream, объединяются в serving layer    | При необходимости истории + реалтайма                                          |
-| Kappa  | Только stream-обработка, batch имитируется через репроигрывание          | Когда основная логика работает в real-time и нет сложных batch-загрузок        |
+| [Lambda](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda%26Kappa.md#что-такое-lambda-) | Отдельные pipeline’ы для batch и stream, объединяются в serving layer    | При необходимости истории + реалтайма                                          |
+| [Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda%26Kappa.md#что-такое-kappa-)  | Только stream-обработка, batch имитируется через репроигрывание          | Когда основная логика работает в real-time и нет сложных batch-загрузок        |
