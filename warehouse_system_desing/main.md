@@ -27,7 +27,7 @@
 ## 4. Необходимая частота обновлений
 - **`Раз в день`**: достаточно batch-обработки с [Airflow](https://airflow.apache.org) и [dbt](https://www.getdbt.com).
 - **`Каждый час/минуту`**: использовать микробатчинг c [Spark Structured Streaming](https://spark.apache.org/streaming/) или [Flink](https://flink.apache.org).
-- **`Реалтайм (< 1 мин)`**: [Kafka](https://kafka.apache.org) + [Flink](https://flink.apache.org) или `Kinesis + Lambda`, а также `CDC` ([Debezium](https://debezium.io)).
+- **`Реалтайм (< 1 мин)`**: [Kafka](https://kafka.apache.org) + [Flink](https://flink.apache.org), а также [CDC](https://ru.wikipedia.org/wiki/Захват_изменения_данных) ([Debezium](https://debezium.io)).
 
 > Также необходимо уточнить допустимый [SLA](https://ru.wikipedia.org/wiki/Соглашение_об_уровне_услуг)
 
