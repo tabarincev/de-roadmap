@@ -201,25 +201,10 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
   - [Nested Loop](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md#nested-loop)
   
 ## System Design
-- https://divyumrastogi.gitbooks.io/system-design/content/the_system_design_primer/anki_flashcards.html
-- https://youtu.be/bUHFg8CZFws
-- https://youtu.be/ZgdS0EUmn70?si=DMh6I_hoKulUPXK9
-- https://habr.com/ru/companies/yandex/articles/564132/
-- https://habr.com/ru/articles/850888/
+- [Сбор требований]()
+- [Выбор подхода к моделированию]()
+- [Выбор стека технологий]()
 
-- [План интервью]()
-  - [Сбор требований]()
-  - [Эстимэйты]()
-  - [API]()
-  - [High-level проектирование]()
-  - [Detailed проектирование]()
-  - [Best Practices]()
-  - [Масштабирование]()
-- [DE]
-  - [Подбор архитектуры DWH]()
-  - [Расчет нагрузки]()
-  - [Боттлнеки]()
-  
 ## Modern Data Stack
 - [Dbt + Trino + Iceberg](https://github.com/tabarincev/modern-data-pipeline)
 
