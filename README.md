@@ -298,6 +298,7 @@ https://greenplum.org/tutorials/
       - [Spark Streaming](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#spark-streaming)
       - [Spark MLlib](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#spark-mllib)
     - [Архитектура Spark-кластера](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#архитектура-spark-кластера)
+      - [Как Spark планирует и запускает задачи ?]()
       - [Компоненты](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#компоненты-1)
         - [Driver](https://github.com/tabarincev/de-roadmap/blob/main/technologies/spark/Architecture.md#driver)
           - [Spark Conf]()
