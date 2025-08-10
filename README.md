@@ -340,6 +340,9 @@ https://greenplum.org/tutorials/
   - [Shared Variables & Broadcast Variables & Accumulators]()
 - [Управление ресурсами]()
   - [Конфигурация Spark-приложения]()
+    - [Параметры для executors]()
+    - [Параметры для driver]()
+    - [Остальные параметры]()
     - --master yarn (менеджер кластера, local[N], где N - количество ядер)
     - --driver-memory 4g (если не делается тяжелых операций (Например, collect) - 2-4g достаточно)
     - --executor-cores 4
