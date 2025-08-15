@@ -10,17 +10,17 @@
 - [Какую архитектуру выбрать ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#какую-архитектуру-выбрать-)
 
 #### [Storage Design]()
-- [DWH]()
-  - [Kimball]()
-  - [Inmon]()
-  - [Snowflake]()
-  - [Star]()
+- [DWH](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DWH.md)
+  - [Kimball](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DWH.md#подход-по-кимбалу)
+  - [Inmon](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DWH.md#подход-по-инмону)
+  - [Snowflake](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DWH.md#снежинка)
+  - [Star](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DWH.md#звезда)
 - [Data Lakes]()
-  - [Data Lake]()
-  - [Data Lakehouse]()
-  - [Streamhouse]()
-- [Data Mesh]()
-- [Data Fabric]()
+  - [Data Lake](https://github.com/tabarincev/de-roadmap/edit/main/concepts/storage_design/DataLakes.md#data-lake)
+  - [Data Lakehouse](https://github.com/tabarincev/de-roadmap/edit/main/concepts/storage_design/DataLakes.md#data-lakehouse)
+- [Streamhouse](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/StreamHouse.md)
+- [Data Mesh](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DataMesh.md)
+- [Data Fabric](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DataFabric.md)
 
 #### [LSA - Layered Scalable Architecture]()
 - [Слои данных]()
@@ -33,7 +33,6 @@
     - [ODS]()
     - [DDS]()
     - [DM]()
-- [Соотношение техник моделирования и потребителей по слоям]()
 
 #### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
 - [Data Quality]()
@@ -48,7 +47,7 @@
 - [CDC](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/cdc.md)
 - [ELT](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/elt.md)
 - [ETL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/etl.md)
-- Hot vs Warm vs Cold data
+- [Hot vs Warm vs Cold data](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/storage_type.md)
 - [SCD](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/scd.md)
   
 #### [Data Modeling](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataModeling.md)
@@ -57,8 +56,8 @@
 - [HnNf](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/hnnf.md)
 
 #### [Data Processing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Processing.md)
-- Batch vs Stream vs Micro-Batch
-- OLTP vs OLAP vs HTAP
+- [Batch vs Stream vs Micro-Batch](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_processing/speed_type.md)
+- [OLTP vs OLAP vs HTAP](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_processing/transaction_type.md)
 
 #### [SQL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/SQL.md)
 
@@ -178,9 +177,9 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
   - [Self-Reference](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Relations.md#self-reference)
 
 - [CAP теорема]()
-  - [Consistency — Согласованность]()
-  - [Availabilty - Доступность]()
-  - [Partition Tolerance - Устойчивость]()
+  - [Consistency — Согласованность](https://github.com/tabarincev/de-roadmap/new/main/concepts/sql#consistency--согласованность)
+  - [Availabilty - Доступность](https://github.com/tabarincev/de-roadmap/new/main/concepts/sql#availabilty---доступность)
+  - [Partition Tolerance - Устойчивость](https://github.com/tabarincev/de-roadmap/new/main/concepts/sql#partition-tolerance---устойчивость)
 
 - [Как база данных хранит данные ?]()
 
@@ -194,12 +193,12 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
 
 - [Query Engine]() (https://howqueryengineswork.com/00-introduction.html)
 
-- [Physical joins](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md)
+- [Физические типы JOIN операций](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md)
   https://www.youtube.com/watch?v=pJWCwfv983Q
   - [Hash Join](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md#hash-join)
   - [Sort Merge Join](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md#sort-merge-join)
   - [Nested Loop](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/PhysicalJoins.md#nested-loop)
-  
+
 ## System Design
 - [Сбор требований]()
 - [Выбор подхода к моделированию]()
