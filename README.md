@@ -106,6 +106,11 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
     - [Агрегатные функции](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#агрегатные-функции)
     - [Логические операторы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Indexes.md#логические-операторы)
 
+- [WAL - Журнал предзаписи]()
+  - [Настройка](https://postgrespro.ru/docs/postgrespro/9.5/wal-configuration)
+  - [Внутреннее устройство](https://postgrespro.ru/docs/postgrespro/9.5/wal-internals)
+  - [Асинхронное подтверждение транзакций](https://postgrespro.ru/docs/postgrespro/9.5/wal-async-commit)
+
 - [Транзакции](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md)
   - [Что такое транзакция ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#что-такое-транзакция-)
   - [Операторы](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/Transactions.md#операторы)
