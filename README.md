@@ -54,6 +54,7 @@
 - [Data Vault](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/data_vault.md) https://search.app?link=https%3A%2F%2Fhabr.com%2Fru%2Fcompanies%2Fcinimex%2Farticles%2F857084%2F&utm_campaign=aga&utm_source=agsadl1%2Cagsadl3%2Csh%2Fx%2Fgs%2Fm2%2F4
 - [Anchor Modeling](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/anchor.md)
 - [HnNf](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/hnnf.md)
+- [Как выбрать необходимую модель ?](https://habr.com/ru/articles/786822/)
 
 #### [Data Processing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Processing.md)
 - [Batch vs Stream vs Micro-Batch](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_processing/speed_type.md)
