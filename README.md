@@ -209,6 +209,7 @@ https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hm
 - [Сбор требований]()
 - [Выбор подхода к моделированию]()
 - [Выбор стека технологий]()
+- [Ссылка](https://blog.surfalytics.com/p/ultimate-cheatsheet-for-data-engineering)
 
 ## Modern Data Stack
 - [Dbt + Trino + Iceberg](https://github.com/tabarincev/modern-data-pipeline)
