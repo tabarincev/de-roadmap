@@ -468,36 +468,31 @@ https://greenplum.org/tutorials/
 - [Git Config]()
 - [Git Bash / Git Fork]()
 
-#### Airflow (https://quizlet.com/de/966067770/airflow-de-flash-cards/)
+#### Airflow
 - [Что такое Airflow ?]() 
 - [Архитектура]() 
   - [Компоненты]() 
     - [Необходимые]()
     - [Дополнительные]() 
-  - [Деплой]() 
-  - [Control Flow]() 
-  - [UI]() 
-- [Термины]() 
-  - [DAG]() 
-  - [DAG Run]() 
-  - [Task]() 
-  - [Operator]() 
-  - [Sensor]() 
-  - [TaskFlow]() 
-- [Docker compose образ]()
-- [Генераторы DAG]()
-  - [Самописный]()
-  - [Библиотеки]()
-
-#- DAG
-#- Operators
-#- Sensors
-#- XCOM
-#- TaskFlow
-#- Jinja templates
-#- backfill & catchup
-#- Pool vs Queue
-#- Connections vs Hooks
+- [Термины](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md) 
+	- [DAG](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#dag)
+	- [DagRun](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#dagrun)
+	- [Task](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#task)
+	- [TaskFlow](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#taskflow)
+	- [Operators](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#operators)
+	- [Sensors](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#sensors)
+	- [Executor](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#executor)
+	- [Backfill](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#backfill)
+	- [XCOM](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#xcom)
+	- [Variables](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#variables)
+	- [Connections](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#connections)
+	- [Pools](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#pools)
+	- [Hooks](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#hooks)
+   	- [Macroses](https://github.com/tabarincev/de-roadmap/blob/main/technologies/airflow/terminology.md#macroses)
+- [Работа с UI]()
+- [Работа с CLI]()
+- [Работа с REST API]()
+- [Как развернуть `Airflow` в docker-compose ?]()
 
 <img align="left" width="25" height="25" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/c7f2fa08-bb92-4898-a73e-b206be6bd573" alt="Hadoop icon">
 
