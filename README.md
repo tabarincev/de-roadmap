@@ -527,6 +527,7 @@ https://greenplum.org/tutorials/
   - [Пользовательские]()
   - [Администратор]()
   - [Дебаг]()
+- [Форматы хранения данных](https://ivan-shamaev.ru/apache-iceberg-tutorial-architecture-how-to-work/)
 
 #### DBT
 
