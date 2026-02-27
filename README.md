@@ -3,13 +3,13 @@
 ![](img/README_TITLE.png)
 ## Concepts 
 
-#### [Data Architecture]()
+#### Data Architecture
 - [Kappa](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda%26Kappa.md#что-такое-kappa-)
 - [Lambda](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda%26Kappa.md#что-такое-lambda-)
 - [Сравнение](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda%26Kappa.md#сравнение-архитектур)
 - [Какую архитектуру выбрать ?](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_architecture/Lambda&Kappa.md#какую-архитектуру-выбрать-)
 
-#### [Storage Design]()
+#### Storage Design
 - [DWH](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DWH.md)
   - [Kimball](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DWH.md#подход-по-кимбалу)
   - [Inmon](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DWH.md#подход-по-инмону)
@@ -22,7 +22,7 @@
 - [Data Mesh](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DataMesh.md)
 - [Data Fabric](https://github.com/tabarincev/de-roadmap/blob/main/concepts/storage_design/DataFabric.md)
 
-#### [LSA - Layered Scalable Architecture]()
+#### LSA - Layered Scalable Architecture
 - [Слои данных]()
   - [Медальон]()
     - [Bronze]()
@@ -34,7 +34,8 @@
     - [DDS]()
     - [DM]()
 
-#### [Data Governance](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md)
+#### Data Governance
+https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md
 - [Data Quality]()
   - [Измерения]()
   - [Инструменты]()
@@ -43,24 +44,24 @@
 - [Data Lineage]()
 - [Data Catalog]()
 
-#### [Data Pipeline](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataPipeline.md)
+#### Data Pipeline
 - [CDC](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/cdc.md)
 - [ELT](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/elt.md)
 - [ETL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/etl.md)
 - [Hot vs Warm vs Cold data](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/storage_type.md)
 - [SCD](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_pipeline/scd.md)
   
-#### [Data Modeling](https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataModeling.md)
+#### Data Modeling
 - [Data Vault](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/data_vault.md) https://search.app?link=https%3A%2F%2Fhabr.com%2Fru%2Fcompanies%2Fcinimex%2Farticles%2F857084%2F&utm_campaign=aga&utm_source=agsadl1%2Cagsadl3%2Csh%2Fx%2Fgs%2Fm2%2F4
 - [Anchor Modeling](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/anchor.md)
 - [HnNf](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_modeling/hnnf.md)
 - [Как выбрать необходимую модель ?](https://habr.com/ru/articles/786822/)
 
-#### [Data Processing](https://github.com/tabarincev/de-roadmap/blob/main/concepts/Processing.md)
+#### Data Processing
 - [Batch vs Stream vs Micro-Batch](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_processing/speed_type.md)
 - [OLTP vs OLAP vs HTAP](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_processing/transaction_type.md)
 
-#### [SQL](https://github.com/tabarincev/de-roadmap/blob/main/concepts/SQL.md)
+#### SQL
 
 https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g&t=495
 - [Типы баз данных](https://github.com/tabarincev/de-roadmap/blob/main/concepts/sql/DatabaseTypes.md)
