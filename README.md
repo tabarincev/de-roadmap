@@ -61,6 +61,16 @@ https://github.com/tabarincev/de-roadmap/blob/main/concepts/DataGovernance.md
 - [Batch vs Stream vs Micro-Batch](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_processing/speed_type.md)
 - [OLTP vs OLAP vs HTAP](https://github.com/tabarincev/de-roadmap/blob/main/concepts/data_processing/transaction_type.md)
 
+#### Форматы хранения
+- [Файловые форматы]()
+  - [Row-based]()
+  - [Column-based]()
+  - [Streaming]()
+- [Табличные форматы]()
+  - [Iceberg]()
+  - [Delta]()
+  - [Hudi]()
+
 #### SQL
 
 https://www.youtube.com/watch?v=DJ5u5HrbcMk&list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g&t=495
