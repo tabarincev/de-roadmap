@@ -1,7 +1,16 @@
 # List of content
 - [Архитектура](https://github.com/tabarincev/de-roadmap/edit/main/concepts/data_formats/table/iceberg.md#архитектура)
+  - [Catalog Layer]()
+  - [Metadata Layer]()
+    - [Manifest Files]()
+    - [Manifest Lists]()
+    - [Metadata Files]()
+    - [Puffin Files]()
+  - [Data Layer]()
+    - [Data файлы]()
+    - [Delete файлы]()
 - [Преимущества](https://github.com/tabarincev/de-roadmap/edit/main/concepts/data_formats/table/iceberg.md#преимущества)
-
+- [Как все работает вместе ?]()
 
 
 # Архитектура
@@ -13,7 +22,8 @@
 - хранит метаданные о данных и историю их изменения
 - разделяет таблицу на 2 уровня: данные и метаданные
 
-## Слой метаданных - Metadata layer
+## Слой каталога - Catalog Layer
+## Слой метаданных - Metadata Layer
 Apache Iceberg использует три типа файлов метаданных для поддержания карты расположения файлов:
 - Файлы манифеста (manifest files) - каждый файл манифеста отслеживает подмножество других файлов в таблице для одного снепшота. Они отслеживают отдельные файлы, их партиции и метрики столбцов
 - Списки манифестов (manifest lists) - описывают снепшот таблицы и содержат список всех файлов манифеста, которые составляют этот снепшот. Списки манифестов также содержат метаданные для каждого файла манифеста в данном снепшоте 
